@@ -1,0 +1,106 @@
+🧪 What is Testing?
+Testing is the process of evaluating a software application to find defects (bugs) and ensure it works as expected. The goal of testing is to make sure the software meets the required standards, functions properly, and provides a good user experience.
+
+Testing involves checking if all features work correctly, identifying any issues, and ensuring that the software behaves as intended under different conditions. It is a key part of the 
+software development process, helping to catch problems early and ensure the final product is reliable and of high quality.
+
+...................................
+
+🧑‍💻 What is Software Quality Assurance (SQA)?
+Software Quality Assurance (SQA) is a process that ensures the software being developed meets the required quality standards. It involves monitoring and improving the entire software development process, from planning and design to development and testing. The goal of SQA is to prevent defects by implementing best practices, guidelines, and standards to ensure the software is built correctly and consistently.
+
+SQA includes activities like process audits, reviews, and setting up standards to make sure the development team follows the right practices throughout the project. It is a proactive approach to ensuring quality before the software reaches the testing phase.
+
+...................................
+🧪 Types of Testing
+There are several types of testing used to ensure software works properly. Here are some of the main ones:
+
+--> Smoke Testing: A basic test to check if the most important functions of the software work. It’s like a "health check" before doing detailed testing.
+
+--> Sanity Testing: A quick test done after a small change or bug fix to ensure that the issue has been resolved without affecting other features.
+
+--> Regression Testing: This type checks if recent changes (like updates or bug fixes) have affected any existing features of the software.
+
+--> Functional Testing: Tests whether the software’s features work as expected according to the requirements. For example, testing if a login feature allows users to sign in successfully.
+
+--> Non-Functional Testing: Focuses on how the software performs under various conditions, such as performance, security, and usability. Examples include load testing and stress testing.
+
+--> Unit Testing: Testing individual parts of the software, like functions or methods, to ensure they work correctly.
+
+--> Integration Testing: Checking if different components or systems of the software work together as expected.
+
+--> User Acceptance Testing (UAT): This testing is done by end-users to make sure the software meets their needs and expectations before it’s released.
+
+--> Performance Testing: Assesses the software’s speed, responsiveness, and stability under different conditions (e.g., stress or load testing).
+
+--> Security Testing: Ensures the software is protected against security vulnerabilities, such as unauthorized access or data breaches.
+
+
+..........................................
+
+What are Black Box, White Box and Grey Box testing?
+🖤 Black Box Testing
+Black Box Testing focuses on testing the functionality of the software without knowing its internal structure or code. The tester is only concerned with whether the software works as expected based on the input provided and the output generated.
+
+What it tests: Functionality of the system (e.g., user interface, inputs, outputs).
+
+Tester’s knowledge: No knowledge of the internal workings or code.
+
+Example: Testing a login page by entering various usernames and passwords to see if the system grants access correctly.
+
+🤍 White Box Testing
+White Box Testing (also known as Structural Testing) involves testing the internal workings of the software. The tester has full knowledge of the code, algorithms, and internal structure, and tests the system based on that.
+
+What it tests: Internal code logic, functions, loops, and algorithms.
+
+Tester’s knowledge: Full knowledge of the code.
+
+Example: Testing the login code by checking if the correct validation logic is implemented for username and password fields.
+
+🟨 Grey Box Testing
+Grey Box Testing is a combination of both Black Box and White Box testing. The tester has limited knowledge of the internal structure of the software and uses that knowledge to design tests based on the system's architecture and functionality.
+
+What it tests: A mix of functionality and some knowledge of the internal workings.
+
+Tester’s knowledge: Partial knowledge of the internal structure.
+
+Example: Testing an API where the tester knows the expected output format but also tests specific areas of the code to ensure the API behaves as expected.
+
+These testing methods focus on different levels of software testing and are chosen based on the context, goals, and available information about the system.
+
+...........................................................
+
+🧑‍💻 The Seven Principles of Software Testing
+Testing Shows Presence of Defects
+Testing can only show that defects are present in the software, but it cannot prove that there are no defects. Even after testing, there could still be bugs that weren't found.
+
+Exhaustive Testing is Impossible
+It’s impossible to test everything in a software application due to time and resource constraints. Testing focuses on critical areas and common user scenarios to minimize risk.
+
+Early Testing
+Testing should begin as early as possible in the software development lifecycle. The earlier defects are found, the easier and cheaper they are to fix.
+
+Defect Clustering
+Most defects are found in a small portion of the application. Testing should focus more on these high-risk areas to find and fix most issues quickly.
+
+Pesticide Paradox
+Running the same set of tests repeatedly will not find more defects. To discover new issues, test cases need to be reviewed and updated regularly.
+
+Testing is Context-Dependent
+The type of testing needed depends on the context of the project. Different software applications (e.g., web apps, mobile apps) require different approaches and techniques for testing.
+
+Absence of Errors Fallacy
+Even if no defects are found, the software might still not meet the user’s needs or expectations. Testing should ensure that the software not only works but also satisfies user requirements.
+
+These principles guide testers to focus on the most important aspects of testing and ensure that the software is high-quality and meets the user’s expectations. Let me know if you'd like further clarification on any principle!
+
+..................................................................
+
+📊 QA (Quality Assurance) vs. QC (Quality Control)
+QA (Quality Assurance) is about improving processes to prevent defects before they happen. It focuses on ensuring the right practices are followed during development.
+
+QC (Quality Control) is about finding and fixing defects in the finished product through testing, ensuring the software works correctly.
+
+In short, QA prevents issues, while QC fixes them.
+
+
